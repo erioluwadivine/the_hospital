@@ -1,0 +1,257 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="boot/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="boot/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="boot/css/bootstrap.css">
+        <link rel="stylesheet" href="boot/css/main.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--the navbar-->
+          <div class="the-nav">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-0.5">
+                    <a href="index.html"><img src="boot/img/hosp.jpg" alt=""></a>
+                </div>
+                <div class="col-md-2 ">
+                  <span class="hos">THE HOSPITAL</span><br>
+                  <span class="white">Nigeria +234-334-567-96</span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class=" butons" >
+                  <span class="btn btn-secondary white" style="border-radius: 30%; color:blue;">about</span>
+                  <span class="btn btn-secondary white" style="border-radius: 30%; color:blue;"><a href="#contact">contact</a></span>
+                  <span class="btn btn-secondary white" style="border-radius: 30%; color:blue;"><a href="login.html">login</a></span>
+                  <i class="fa fa-envelope white"></i>
+                </div>   
+                          
+            </div>
+          </div>
+          <!--white navbar-->
+          <div class="row white-nav" style="border-bottom:4px solid blue ;">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">           
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Treatments and services</a>
+                  <div class="dropdown-content">
+                    <a href="appointment.html">book appointment</a>
+                  </div>               
+            </div>
+            <div class="col-md-2">
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Find a physician</a>
+                <div class="dropdown-content">
+                  <a href="dental.html">dental</a>
+                  <a href="optician.html">optician</a>
+                  <a href="cardiac.html">cardiac</a>
+                  <a href="surgery.html">surgery</a>
+                  <a href="primary.html">primary-health</a>
+                  <a href="gyneacology.html">surgery</a>
+                </div>
+            </div>
+            <div class="col-md-2"> 
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">my account</a>
+                <div class="dropdown-content">
+                  <a href="edit-record.html">Edit medical record</a>
+                  <a href="#">medical history</a>
+                </div>
+            </div>
+            <div class="col-md-4"style="padding-top:10px;">
+              <input type="text" placeholder="search">
+              <span class="fa fa-search btn btn-danger"></span>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <!--sign up and info-->
+          <div class="row ">
+            <div class="col-md-9 pic" style="padding:70px;" >
+              <p>FEEL SAFE DURING EMMERGENCY </p>
+                <p>ONCE YOU'VE REGISTER, YOU HAVE </p>
+                <p>THE LICENCE TO CALL US ANYTIME</p>
+                <P>WE'LL BE AT YOU DOOR STEP IN FEW MINUTES</P>
+                <p>call for ambulance using the button below </p>
+                <p>better still call our hotline</p>
+               <span class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'">call an ambulance</span>
+            </div>
+            <div class="col-md-3 cardy">
+              <div class="card white card-form"  >
+                <div class="card-body">
+                  <p style="text-align:center;">sign up now, call us later</p>
+                <div>
+                  <form role="form" style="padding:20px;">
+                    <div class="form-group">
+                      <label for="email">Name:</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Matric no:</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-default">Register</button>
+                  </form>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--pop up-->
+            <div >
+              <div id="id01" class="modal">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                  <form class="modal-content animate" action="/action_page.php">
+                    <h3>fill form we'll be there in few minutes</h3>
+                      <div class="container form-group" style="padding-left: 5px;" >
+                          <label><b>Describe situation:</b></label>
+                          <textarea name="" id="" cols="30" rows="3"></textarea>
+                          <br>
+                          <label><b>location:</b></label><br>
+                          <input type="password" placeholder="enter location"  required>
+                          <br>
+      
+                          <div class="clearfix">
+                              <button type="submit" class="signupbtn btn btn-primary">submit</button>
+      
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div
+          <!--icons of what we do -->
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-6">
+                  <center>
+                    <img src="boot/img/capentary.png" alt="" ><br>
+                  <span>will always come around in cases</span><br>
+                  <span>of emergency to help you out</span>
+                  </center>
+                </div>
+                <div class="col-md-6">
+                  <center>
+                    <img src="boot/img/capentary.png" alt="" ><br>
+                  <span>will always come around in cases</span><br>
+                  <span>of emergency to help you out</span>
+                  </center>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 cardy ">
+              <div class="card  " style="background-color:cornflowerblue">
+                <div class="card-body white">
+                  <h4><marquee behavior="" direction="">important notice</marquee></h4><br>
+                  <ul>
+                    <li>
+                      <p>
+                        free hiv and aids test to begin tomorrow
+                        34th sept 2015
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        free hiv and aids test to begin tomorrow
+                        34th sept 2015
+                      </p>
+                    </li> 
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--healthy posts-->
+            <center><h1>Healthy post corner</h1></center>
+          <div class="row">
+            <div id="all">
+                    <div class="view view-first" style="padding-left:100px;">
+                      <img src="boot/img/man.jpeg" />
+                      <div class="mask">
+                        <h2>for cancer patients</h2>
+                        <p>eating carrots could help cure some cancer diseases, scientists have</p>
+                        <a href="read_more.html" class="info">Read More</a>
+                      </div>
+                    </div>
+                  
+                  
+                    <div class="view view-first"style="padding-left:100px;">
+                      <img src="boot/img/man.jpeg" />
+                      <div class="mask"></div>
+                      <div class="content">
+                        <h2>Midtown</h2>
+                        <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
+                        <a href="read_more.html" class="info">Read More</a>
+                      </div>
+                    </div>
+                  
+                  
+                    <div class="view view-first"style="padding-left:100px;">
+                      <img src="boot/img/man.jpeg" />
+                      <div class="mask">
+                        <h2>The Only Living Boy in New York</h2>
+                        <p>Words and such, a whole lot more of muh flippin' words.</p>
+                        <a href="read_more.html" class="info">Read More</a>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+            <!--footer-->
+            <div class="white">
+              <div class="base">
+                <div class="container bottom-border padding-vert-30">
+                    <div class="row">
+                        <div class="col-md-4" >
+                            <h3 class="class margin-bottom-10">About us</h3>
+                            <p>get good medical services</p>
+                        </div>
+                        
+                        <div class="col-md-4 margin-bottom-20">
+                            <h3 class="margin-bottom-10">Details</h3>
+                            <p>
+                                <span class="fa fa-phone">Phone no:</span>08145667892
+                                <br>
+                                <span class="fa fa-envelope">Email:</span>
+                                <a href="#">me@ourhospital</a>
+                                <br>
+                                
+                            </p>
+                        </div>
+                    
+                        <div class="col-md-4 margin-bottom-20">
+                            <h3 class="margin-bottom-10">send us a mail</h3>
+                             <form role="form">
+  <div class="form-group" data-target="#contact">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Name:</label>
+    <input type="text" class="form-control" >
+  </div>
+  <div class="form-group">
+  <label>message:</label>
+    <textarea type="textarea" class="form-control" style="background-color: white; height:50px;" >
+        
+    </textarea>
+  </div>
+  <button type="submit" class="btn btn-secondary" style="color: black;">Submit</button>
+</form>
+</div>
+<span style="padding-left: 45%;" >
+    (c)Copyright our hospital
+</span>
+            </div>
+        <script src="boot/js/bootstrap.js"></script>
+    </body>
+</html>
